@@ -95,3 +95,20 @@ While strictly out of scope for the current capstone constraints, future iterati
 *   **Multimodal Input Processing:** Allowing the Intake and Severity Agents to analyze uploaded images of disaster zones alongside text.
 *   **Live GIS Routing Engine:** Replacing the static SVG situational map with a live Google Maps/GIS integration for real-time dispatch routing.
 *   **Production Infrastructure:** Adding robust authentication, WebSockets for live state streaming (replacing polling), and a persistent SQL/NoSQL database for historical incident logging.
+
+## Demo
+
+🎥 YouTube Demo:
+https://youtube.com/...
+
+## Presentation
+
+Presentation available inside /presentation
+
+## Architecture
+
+See /architecture
+
+## Screenshots
+
+See /screenshots
