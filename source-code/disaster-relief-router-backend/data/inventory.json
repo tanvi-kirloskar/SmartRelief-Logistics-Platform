@@ -1,0 +1,23 @@
+{
+  "Boat Team": 5,
+  "Medical Kit": 25,
+  "Relief Supplies": 12,
+
+  "Fire Brigade": 3,
+  "Police Team": 5,
+
+  "Rescue Team": 6,
+  "Chainsaw Crew": 4,
+
+  "Urban Search Team": 2,
+  "Crane Team": 2,
+
+  "Traffic Police": 6,
+  "Ambulance": 8,
+
+  "Excavator": 2,
+  "Disaster Response Team": 2,
+
+  "Water Pack": 50,
+  "Temporary Shelter Kit": 20
+}

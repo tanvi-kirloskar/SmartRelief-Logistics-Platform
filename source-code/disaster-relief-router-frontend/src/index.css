@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020817;
+  color: white;
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Leaflet dark overrides */
+.leaflet-container {
+  background: #020817 !important;
+  font-family: 'Inter', sans-serif;
+}
+.leaflet-tile-pane {
+  filter: brightness(0.3) saturate(0.5) hue-rotate(180deg) invert(1) hue-rotate(180deg);
+}
+.leaflet-control-zoom {
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  background: #081221 !important;
+}
+.leaflet-control-zoom a {
+  background: #081221 !important;
+  color: rgba(255,255,255,0.7) !important;
+  border-color: rgba(255,255,255,0.1) !important;
+}
+.leaflet-control-zoom a:hover {
+  background: #0d1f35 !important;
+  color: white !important;
+}
+.leaflet-popup-content-wrapper {
+  background: #081221 !important;
+  color: white !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5) !important;
+}
+.leaflet-popup-tip {
+  background: #081221 !important;
+}
+.leaflet-popup-close-button {
+  color: rgba(255,255,255,0.5) !important;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.pulse-ring {
+  animation: pulse-ring 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.blink {
+  animation: blink 1s ease-in-out infinite;
+}
+
+.card-border {
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.text-muted {
+  color: rgba(255,255,255,0.4);
+}
+
+.text-subtle {
+  color: rgba(255,255,255,0.6);
+}
+
+.gradient-green {
+  background: linear-gradient(135deg, #22c55e20, transparent);
+}
+
+.gradient-red {
+  background: linear-gradient(135deg, #ef444420, transparent);
+}
+
+.gradient-amber {
+  background: linear-gradient(135deg, #f59e0b20, transparent);
+}
